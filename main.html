@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unlimited Bananas</title>
+</head>
+<body>
+  
+    <class id="info">
+    <div>You have: <span id="bananas">0</span> <span id="bananaWord">bananas</span></div>
+    <div><span id="bpsCount">0</span> <span id="bananaWord2">bananas</span> per second</div><br>
+    </class>
+
+    <button id="clickbutton" onclick="giveBanana(1)">Harvest banana</button><br><br>
+    
+    <class id="unlockables">
+    <div>Unlockables:</div>
+    <button id="bananaGenerator" onclick="buyBuilding(bananaGenerator)">Auto banana - 15</button><br>
+    <button id="bananaFarm" onclick="buyBuilding(bananaFarm)">Banana farm - 100</button><br>
+    <button id="bananaPlantation" onclick="buyBuilding(bananaPlantation)">Banana plantation - 750</button><br>
+    <button id="bananaFactory" onclick="buyBuilding(bananaFactory)">Banana factory - 10000</button><br>
+    <button id="thejungle" onclick="buyBuilding(thejungle)">The jungle - 100000</button><br>
+    </class><br><br><br>
+
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</body>
+</html>

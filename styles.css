@@ -1,0 +1,27 @@
+body {
+  background-color: #6c6c6c;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#info{
+	font-weight:bold;
+	font-size:16px;
+	text-align:left;
+	background-color:#fff;
+	background-color:rgba(255,255,255,0.75);
+	border-radius:18px;
+}
+
+
+#clickbutton, #bananaGenerator, #bananaFarm, 
+#bananaPlantation, #bananaFactory, #thejungle {
+cursor: pointer;
+}
